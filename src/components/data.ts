@@ -5,7 +5,7 @@ interface NavbarItem {
   submenu?: NavbarItem[];
 }
 
-const navbarList: NavbarItem[] = [
+export const navbarList: NavbarItem[] = [
   {
     id: 1,
     label: "HOME",
@@ -53,4 +53,31 @@ const navbarList: NavbarItem[] = [
   },
 ];
 
-export default navbarList;
+interface TeamItem {
+  title: string;
+  subtitle: string;
+  image: string;
+}
+
+export const TeamData: TeamItem[] = [
+  {
+    title: "ALY RAZA BEIG",
+    subtitle: "Founder",
+    image: "/image/NOIR-3.png",
+  },
+  {
+    title: "JONGSAC",
+    subtitle: "Artist and Designer",
+    image: "/image/ROUGE-3.png",
+  },
+  {
+    title: "ROBIN GRGIC",
+    subtitle: "Game Developer",
+    image: "/image/BLANC-2.png",
+  },
+  {
+    title: "KLARA BRODAHL",
+    subtitle: "Content Creator",
+    image: "/image/MIZU-2.png",
+  },
+];
