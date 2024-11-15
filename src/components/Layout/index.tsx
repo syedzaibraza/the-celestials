@@ -8,7 +8,7 @@ const Layout = () => {
   useDarkMode(pagesWithDarkMode);
   return (
     <div className="h-screen dark:bg-black dark:text-white flex flex-col relative">
-      <Navbar />
+      {/* <Navbar /> */}
       <Outlet />
       <div className="hidden md:block absolute left-0 bottom-0">
         <MiniPlayer />
