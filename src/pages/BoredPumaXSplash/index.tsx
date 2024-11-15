@@ -2,7 +2,7 @@ const PumaXSplash = () => {
   return (
     <div className="relative h-full w-full overflow-hidden">
       <div className="p-8 md:px-[120px] w-2/3 flex flex-col gap-6">
-        <img src="/public/image/pumaXsplash.png" alt="" className="w-1/2" />
+        <img src="/image/pumaXsplash.png" alt="" className="w-1/2" />
         <p>
           Boredpuma joins forces with Splash Fashions in creating the
           groundbreaking Celestial Collection, stepping out as the first company
@@ -26,12 +26,12 @@ const PumaXSplash = () => {
         </p>
       </div>
       <img
-        src="/public/image/celestials.png"
+        src="/image/celestials.png"
         alt="blue-girl"
         className="hidden md:block w-1/4 md:w-full absolute -right-[67%] -bottom-[82%] z-10"
       />
       <img
-        src="/public/image/text-puma.png"
+        src="/image/text-puma.png"
         alt="blue-girl"
         className="hidden md:block w-full md:w-1/2 absolute right-0 bottom-0 z-20 "
       />
