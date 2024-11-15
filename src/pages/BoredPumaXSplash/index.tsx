@@ -1,10 +1,10 @@
 const PumaXSplash = () => {
   return (
     <div className="relative h-full w-full  overflow-hidden">
-      <div className="p-8 md:px-11 w-full h-full overflow-auto  md:text-2xl">
-        <div className="lg:w-2/3 flex flex-col gap-6">
+      <div className="p-8 md:px-11 lg:px-[120px] w-full h-full overflow-auto md:text-2xl">
+        <div className="lg:w-2/4 w-auto flex flex-col gap-6 ">
           <img src="/image/pumaXsplash.png" alt="" className="w-3/4 md:w-1/2" />
-          <p className="text-justify ">
+          <p className="text-justify md:text-left ">
             Boredpuma joins forces with Splash Fashions in creating the
             groundbreaking Celestial Collection, stepping out as the first
             company to release an NFT in the region. Created in 2019 with the
