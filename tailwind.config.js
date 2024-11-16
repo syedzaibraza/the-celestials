@@ -10,7 +10,7 @@ export default {
         hello: "url('/image/hello.png')",
         text: "url('/image/text.png')",
         "character-1": "url('/image/main-character.png')",
-        "sound-bg-1": "url('/image/bg-sound-1.png')",
+        "sound-bg": "url('/image/bg-sound-1.png')",
       },
     },
   },

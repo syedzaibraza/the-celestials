@@ -81,3 +81,61 @@ export const TeamData: TeamItem[] = [
     image: "/image/MIZU-2.png",
   },
 ];
+
+interface Tracks {
+  name: string;
+  author: string;
+  duration: string;
+  imageUrl: string;
+}
+
+export const Tracks: Tracks[] = [
+  {
+    name: "Rouge (feat. TAC)",
+    author: "Robu, TAC",
+    duration: "0:00",
+    imageUrl: "/image/Rouge-1.png",
+  },
+  {
+    name: "Blanc",
+    author: "Robu",
+    duration: "0:00",
+    imageUrl: "/image/Blanc-1.png",
+  },
+  {
+    name: "Noir",
+    author: "Robu, Slapvibe",
+    duration: "0:00",
+    imageUrl: "/image/Noir-1.png",
+  },
+  {
+    name: "Mizu",
+    author: "Slapvibe",
+    duration: "0:00",
+    imageUrl: "/image/Mizu-1.png",
+  },
+  {
+    name: "Rouge (feat. TAC)",
+    author: "Robu, TAC",
+    duration: "0:00",
+    imageUrl: "/image/Rouge-1.png",
+  },
+  {
+    name: "Blanc",
+    author: "Robu",
+    duration: "0:00",
+    imageUrl: "/image/Blanc-1.png",
+  },
+  {
+    name: "Noir",
+    author: "Robu, Slapvibe",
+    duration: "0:00",
+    imageUrl: "/image/Noir-1.png",
+  },
+  {
+    name: "Mizu",
+    author: "Slapvibe",
+    duration: "0:00",
+    imageUrl: "/image/Mizu-1.png",
+  },
+];
