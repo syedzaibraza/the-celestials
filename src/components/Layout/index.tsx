@@ -10,7 +10,7 @@ const Layout = () => {
     <div className="h-screen dark:bg-black dark:text-white flex flex-col relative">
       <Navbar />
       <Outlet />
-      <div className="hidden md:block absolute left-0 bottom-0">
+      <div className="hidden lg:block absolute left-0 bottom-0">
         <MiniPlayer />
       </div>
     </div>

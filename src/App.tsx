@@ -9,6 +9,7 @@ function App() {
   const TheCelestials = React.lazy(() => import("./pages/TheCelestials"));
   const SoundTrack = React.lazy(() => import("./pages/SoundTracks"));
   const Team = React.lazy(() => import("./pages/TheTeam"));
+  const Hola = React.lazy(() => import("./pages/Hola"));
   const BoredPumaXSplash = React.lazy(() => import("./pages/BoredPumaXSplash"));
 
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/the-celestials" element={<TheCelestials />} />
             <Route path="/sound-tracks" element={<SoundTrack />} />
             <Route path="/about/the-team" element={<Team />} />
+            <Route path="/hola" element={<Hola />} />
             <Route
               path="/about/boredpuma-x-splash"
               element={<BoredPumaXSplash />}
