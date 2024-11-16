@@ -22,17 +22,19 @@ const Celestials = () => {
       <div className="flex flex-col-reverse lg:grid h-full lg:grid-cols-7 overflow-auto lg:overflow-hidden">
         <div className="col-span-4 py-8 px-6 lg:p-0 bg-[#cfcfcf] lg:bg-transparent rounded-t-[20px] lg:rounded-none h-full grid items-end grid-cols-2 lg:grid-cols-4 lg:gap-2 gap-12">
           {CelestialsData.map((image, index) => (
-            <div
-              style={{ backgroundColor: image?.color }}
-              className={` flex justify-end items-end h-[100px] md:h-[120px] rounded-2xl`}
-            >
-              <img
-                key={index}
-                src={image.mobileSrc}
-                alt={image.alt}
-                className="w-full h-[160px] md:h-[230px] lg:hidden lg:grayscale hover:grayscale-0 transition-all duration-300 ease-in-out"
-                onClick={() => openModal(image)}
-              />
+            <>
+              <div
+                style={{ backgroundColor: image?.color }}
+                className={` flex lg:hidden justify-end items-end h-[100px] md:h-[120px] rounded-2xl`}
+              >
+                <img
+                  key={index}
+                  src={image.mobileSrc}
+                  alt={image.alt}
+                  className="w-full h-[160px] md:h-[230px] lg:hidden lg:grayscale hover:grayscale-0 transition-all duration-300 ease-in-out"
+                  onClick={() => openModal(image)}
+                />
+              </div>
               <img
                 key={index}
                 src={image.src}
@@ -40,7 +42,7 @@ const Celestials = () => {
                 className="w-full hidden lg:block h-[150px] md:h-fit lg:grayscale hover:grayscale-0 transition-all duration-300 ease-in-out"
                 onClick={() => openModal(image)}
               />
-            </div>
+            </>
           ))}
         </div>
 
