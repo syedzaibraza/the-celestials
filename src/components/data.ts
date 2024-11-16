@@ -153,9 +153,9 @@ export interface CelestialsTypes {
 
 export const CelestialsData: CelestialsTypes[] = [
   {
-    src: "/public/image/MIZU-3.png",
-    modalSrc: "/public/image/MIZU-full.png",
-    mobileSrc: "/public/image/MIZU-2.png",
+    src: "/image/MIZU-3.png",
+    modalSrc: "/image/MIZU-full.png",
+    mobileSrc: "/image/MIZU-2.png",
     color: "#2d4eb9",
     alt: "Mizu-3",
     title: "MIZU",
@@ -164,9 +164,9 @@ export const CelestialsData: CelestialsTypes[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius blandit felis mattis proin massa leo. Nunc odio magna mattis aliquet lorem posuere fringilla ac. Proin nec montes, laoreet lacus, varius. Pharetra, dui morbi tristique at risus sagittis, pellentesque. Et lacus ac eu sed. Amet eget eleifend elit magna volutpat, at tristique. Tincidunt ut odio erat gravida fames. Id est faucibus porttitor laoreet ornare platea eget magna hendrerit. Elementum tellus amet aenean fusce enim velit nisi aliquam tempus. Morbi ac eget ipsum egestas nulla. Vestibulum, mattis dui quis accumsan. Rutrum in blandit leo amet, tincidunt gravida mi, felis. Mauris semper est nunc ultricies bibendum consequat ut pulvinar.",
   },
   {
-    src: "/public/image/ROUGE-2.png",
-    modalSrc: "/public/image/ROUGE-full.png",
-    mobileSrc: "/public/image/ROUGE-3.png",
+    src: "/image/ROUGE-2.png",
+    modalSrc: "/image/ROUGE-full.png",
+    mobileSrc: "/image/ROUGE-3.png",
     color: "#c52a34",
     alt: "ROUGE-2",
     title: "ROUGE",
@@ -175,9 +175,9 @@ export const CelestialsData: CelestialsTypes[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius blandit felis mattis proin massa leo. Nunc odio magna mattis aliquet lorem posuere fringilla ac. Proin nec montes, laoreet lacus, varius. Pharetra, dui morbi tristique at risus sagittis, pellentesque. Et lacus ac eu sed. Amet eget eleifend elit magna volutpat, at tristique. Tincidunt ut odio erat gravida fames. Id est faucibus porttitor laoreet ornare platea eget magna hendrerit. Elementum tellus amet aenean fusce enim velit nisi aliquam tempus. Morbi ac eget ipsum egestas nulla. Vestibulum, mattis dui quis accumsan. Rutrum in blandit leo amet, tincidunt gravida mi, felis. Mauris semper est nunc ultricies bibendum consequat ut pulvinar.",
   },
   {
-    src: "/public/image/BLANC-3.png",
-    modalSrc: "/public/image/BLANC-full.png",
-    mobileSrc: "/public/image/BLANC-2.png",
+    src: "/image/BLANC-3.png",
+    modalSrc: "/image/BLANC-full.png",
+    mobileSrc: "/image/BLANC-2.png",
     color: "#94d5f9",
     alt: "BLANC-3",
     title: "BLANC",
@@ -187,9 +187,9 @@ export const CelestialsData: CelestialsTypes[] = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius blandit felis mattis proin massa leo. Nunc odio magna mattis aliquet lorem posuere fringilla ac. Proin nec montes, laoreet lacus, varius. Pharetra, dui morbi tristique at risus sagittis, pellentesque. Et lacus ac eu sed. Amet eget eleifend elit magna volutpat, at tristique. Tincidunt ut odio erat gravida fames. Id est faucibus porttitor laoreet ornare platea eget magna hendrerit. Elementum tellus amet aenean fusce enim velit nisi aliquam tempus. Morbi ac eget ipsum egestas nulla. Vestibulum, mattis dui quis accumsan. Rutrum in blandit leo amet, tincidunt gravida mi, felis. Mauris semper est nunc ultricies bibendum consequat ut pulvinar.",
   },
   {
-    src: "/public/image/NOIR-2.png",
-    modalSrc: "/public/image/NOIR-full.png",
-    mobileSrc: "/public/image/NOIR-3.png",
+    src: "/image/NOIR-2.png",
+    modalSrc: "/image/NOIR-full.png",
+    mobileSrc: "/image/NOIR-3.png",
     color: "#189d8a",
     alt: "NOIR-2",
     title: "NOIR",
