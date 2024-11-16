@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
+import Button from "../../components/Button";
+
 const PumaXSplash = () => {
   return (
     <div className="relative h-full w-full  overflow-hidden">
-      <div className="p-8 md:px-11 lg:px-[120px] w-full h-full overflow-auto md:text-2xl">
-        <div className="lg:w-2/4 w-auto flex flex-col gap-6 ">
-          <img src="/image/pumaXsplash.png" alt="" className="w-3/4 md:w-1/2" />
+      <div className="p-8 md:py-0 md:px-11 lg:px-[120px] w-full h-full overflow-auto md:text-lg">
+        <div className="lg:w-2/3 w-auto flex flex-col gap-6 ">
+          <img src="/image/pumaXsplash.png" alt="" className="w-3/4 md:w-1/3" />
           <p className="text-justify md:text-left ">
             Boredpuma joins forces with Splash Fashions in creating the
             groundbreaking Celestial Collection, stepping out as the first
@@ -25,6 +28,16 @@ const PumaXSplash = () => {
             featuring a Y2K aesthetic, character designs pull inspiration from
             mangas and anime. The samurai sword expresses each characters’
             personal identity with compelling artwork and unique designs.
+            <div className="w-full flex justify-end">
+              <Link
+                target="_blank"
+                to={
+                  "https://boredpuma.medium.com/boredpuma-splash-fashions-partner-up-to-create-the-celestial-nft-collection-d45a23359f6d"
+                }
+              >
+                <Button>Learn More</Button>
+              </Link>
+            </div>
           </p>
         </div>
       </div>
