@@ -1,15 +1,10 @@
 import { IoCloseSharp } from "react-icons/io5";
+import { CelestialsTypes } from "../data";
 
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
-  data?: {
-    color?: string;
-    modalSrc?: string;
-    title?: string;
-    subtitle?: string;
-    description?: string;
-  };
+  data?: CelestialsTypes | null;
 }
 
 const Modal = ({ isOpen, onClose, data }: ModalProps) => {
